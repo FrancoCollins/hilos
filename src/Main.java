@@ -13,7 +13,6 @@ public class Main {
 
         ConsumidorEmails c1 = new ConsumidorEmails(emails, "Hilo 4");
         ConsumidorEmails c2 = new ConsumidorEmails(emails, "Hilo 5");
-        ConsumidorEmails c3 = new ConsumidorEmails(emails, "Hilo 6");
 
         new Thread(p1).start();
         new Thread(p2).start();
@@ -21,6 +20,5 @@ public class Main {
 
         new Thread(c1).start();
         new Thread(c2).start();
-        new Thread(c3).start();
     }
 }

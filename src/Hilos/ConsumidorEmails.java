@@ -14,7 +14,7 @@ public class ConsumidorEmails extends Hilo {
         while (dsp) {
             System.out.println(buffer.consumirMensaje(nombre));
             contador++;
-            if (contador == 11){
+            if (contador == 16){
                 dsp = false;
             }
         }
